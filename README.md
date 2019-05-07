@@ -3,18 +3,22 @@
 ![Dunningan](img/dunnigan.png)
 
 ### Description:
-Trend indicator created by William Dunnigan that fires a signal to buy or sell accordingly to the following rules:
+This is a trend indicator based on a strategy created by William Dunnigan that emit signals to buy or sell on any timeframe and can assist in decision making for trading on stock market or Forex.
 
-* **Buy Signal** = Fired at the **first candlestick** wich *close price* is higher than the *higher price* of the last candlestick. The *higher and lower prices* of the current candlestick must be higher than the corresponding ones of the last candlestick as well.
+The signals are fired accordingly to the following rules:
+
+* **Buy Signal** = Fired at the **first candlestick** in which *close price* is higher than the *higher price* of the last candlestick. The *higher and lower prices* of the current candlestick must be higher than the corresponding ones of the last candlestick as well.
+
 ![Dunningan UpBar](img/dunnigan-upbar.png)
 
-* **Sell Signal** = Fired at the **first candlestick** wich *close price* is lower than the *lower price* of the last candlestick. The *higher and lower prices* of the current candlestick must be lower than the corresponding ones of the last candlestick as well.
+* **Sell Signal** = Fired at the **first candlestick** in which *close price* is lower than the *lower price* of the last candlestick. The *higher and lower prices* of the current candlestick must be lower than the corresponding ones of the last candlestick as well.
+
 ![Dunningan DownBar](img/dunnigan-downbar.png)
 
 ### Parameters:
 ![Dunningan Parameters](img/dunnigan-param.png)
 
-* **Last_Candles** = Number of chart's last candlesticks to be evaluated. Defaults to 50.
+* **Evaluated Period** = Number of candlesticks to be evaluated. Defaults to 50.
 
 ----
 ### Instructions:
@@ -25,4 +29,6 @@ Trend indicator created by William Dunnigan that fires a signal to buy or sell a
 ----
 ### References:
 * [MQL5 Documentation](https://www.mql5.com/en/docs)
-* []()
+
+### MQL5 Market:
+* [My MQL5 Published Products](https://www.mql5.com/en/users/leonardo_splinter/seller)
